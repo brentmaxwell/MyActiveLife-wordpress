@@ -1,0 +1,47 @@
+/*
+ Theme Name:   MyActiveLife
+ Description:  Twenty Fifteen Child Theme
+ Author:       Brent Maxwell
+ Author URI:   http://thebrent.net
+ Template:     twentyfifteen
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyfifteen-theBrent
+*/
+.widget_archive li,
+.widget_categories li,
+.widget_links li,
+.widget_meta li,
+.widget_nav_menu li,
+.widget_pages li,
+.widget_recent_comments li,
+.widget_recent_entries li {
+	border:none;
+}
+
+.widget.widget_categories > ul > li a,
+.widget.widget_archive > select > option,
+.widget.widget_archive > ul > li > a,
+.widget.widget_nav_menu > div.menu-feeds-container > ul.menu > li.menu-item > a,
+.widget.widget_links > ul.blogroll > li > a
+{
+	text-transform: lowercase;
+}
+
+.oembed {
+  	text-align: center;
+  	margin-left:auto;
+	margin-right:auto;
+}
+
+.pull-right{
+	float:right;
+}
+
+.footer-map{
+	float:right;
+	height:100px;
+	width:100px;
+}
