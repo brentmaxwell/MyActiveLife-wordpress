@@ -1,19 +1,35 @@
 <?php
 /*
-Plugin Name: theBrent - MyActiveLife plugins
-Description: Plugins for dashboard.thebrent.net
+Plugin Name: MyActiveLife
+Description: MyActiveLife
 Author: Brent Maxwell
 Version: 0.1
 */
 
 class MyActiveLife{
 	public function __construct(){
-		$activities = new MyActiveLife_Activities();
-		$myActiveLifeStrava = new MyActiveLife_Strava();
 	}
 }
 
-include('post-types/activities.php');
-include('importers/strava.php');
+$includes = array(
+	'lib',
+	'admin_meta',
+	'taxonomies',
+	'post_types',
+	'services',
+	'widgets',
+	'shortcodes'
+);
+
+include('lib/keyring/keyring.php');
+
+
+foreach($includes as $include_dir){
+	$dir = glob( dirname( __FILE__ ) . "/".$include_dir."/*.php" );
+	foreach ( $dir as $file ){
+		require $file;
+	}
+}
+
 
 $myActiveLife = new MyActiveLife();

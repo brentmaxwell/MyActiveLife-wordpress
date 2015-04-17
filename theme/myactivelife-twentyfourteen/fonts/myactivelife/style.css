@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'myactivelife';
+	src: url('myactivelife.eot');
+  src: url('myactivelife.eot?#iefix') format('embedded-opentype'),
+       url('myactivelife.woff') format('woff'),
+       url('myactivelife.ttf') format('truetype'),
+       url('myactivelife.svg#@myactivelife') format('svg');
+}
+
+.myactivelifeicon {
+	font-family: 'myactivelife';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.myactivelife-activitytype-ride:before {
+	content: "\e600";
+}
+
+.myactivelife-activitytype-walk:before {
+	content: "\e601";
+}
+
+.myactivelife-activitytype-workout:before {
+	content: "\e602";
+}
+
+.myactivelife-source-strava:before {
+	content: "\e618";
+}
+
+.myactivelife-source-jawbone:before {
+	content: "\e604";
+}
+
+.myactivelife-source-instagram:before {
+	content: "\e60d";
+}
+
+.myactivelife-source-youtube:before {
+	content: "\e620";
+}
+
+.myactivelife-source-onedrive:before {
+	content: "\e603";
+}
+
+.myactivelife-type-video:before {
+	content: "\f126";
+}
+
+.myactivelife-type-image:before {
+	content: "\f128";
+}
+
+
+

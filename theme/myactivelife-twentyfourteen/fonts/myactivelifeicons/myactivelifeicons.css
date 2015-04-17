@@ -1,0 +1,83 @@
+@font-face {
+	font-family: 'myactivelifeicons';
+	src: url('myactivelifeicons.eot');
+  	src: url('myactivelifeicons.eot?#iefix') format('embedded-opentype'),
+       url('myactivelifeicons.woff') format('woff'),
+       url('myactivelifeicons.ttf') format('truetype'),
+       url('myactivelifeicons.svg#myactivelifeicons') format('svg');
+}
+
+.myactivelifeicon {
+	font-family: 'myactivelifeicons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.site-content .entry-meta > span.myactivelifeicon{
+	margin:0;
+}
+
+.myactivelifeicon-person:before {
+	content: "\e600";
+}
+
+.myactivelifeicon-location:before {
+	content: "\e601";
+}
+
+.myactivelifeicon-trip:before {
+	content: "\e700";
+}
+
+.myactivelifeicon-event:before {
+	content: "\e701";
+}
+
+.myactivelifeicon-type-image:before {
+	content: "\e800";
+}
+
+.myactivelifeicon-type-video:before {
+	content: "\e801";
+}
+
+.myactivelifeicon-activitytype-ride:before {
+	content: "\e900";
+}
+
+.myactivelifeicon-activitytype-walk:before {
+	content: "\e901";
+}
+
+.myactivelifeicon-activitytype-workout:before {
+	content: "\e902";
+}
+
+.myactivelifeicon-source-strava:before {
+	content: "\ea00";
+}
+
+.myactivelifeicon-source-jawbone:before {
+	content: "\ea01";
+}
+
+.myactivelifeicon-source-instagram:before {
+	content: "\ea02";
+}
+
+.myactivelifeicon-source-youtube:before {
+	content: "\ea03";
+}
+
+.myactivelifeicon-source-onedrive:before {
+	content: "\ea04";
+}
+
